@@ -1,7 +1,7 @@
 <template>
   <nav class="top-nav">
     <a href="https://vawaa.com" target="_blank" class="top-nav__logo">
-      <img src="/vawaa-black.png" alt="VAWAA">
+      <img src="~/assets/images/vawaa-black.png" alt="VAWAA">
     </a>
     <ul class="top-nav__links">
       <li class="top-nav__link">

@@ -1,7 +1,7 @@
 import pkg from './package'
 
 export default {
-  mode: 'universal',
+  mode: 'spa',
 
   /*
   ** Headers of the page
@@ -56,8 +56,9 @@ export default {
   /*
   ** Axios module configuration
   */
+  // See https://github.com/nuxt-community/axios-module#options
   axios: {
-    // See https://github.com/nuxt-community/axios-module#options
+    baseURL: 'https://vawaa.herokuapp.com'
   },
 
   /*

@@ -4,7 +4,7 @@
       <h1 class="header__title">Vacation With an Artist</h1>
       <p class="header__subheading">Book mini apprenticeships with master artists around the world.</p>
 
-      <a class="header__cta" href="/artists">Get started</a>
+      <vawaa-button class="header__cta" href="/artists" :types="['primary']">Get started</vawaa-button>
     </header>
 
     <section class="video">
@@ -35,12 +35,13 @@
 
 <script>
   import ArtistList from '~/components/ArtistList'
+  import VawaaButton from '~/components/VawaaButton'
 
   export default {
     asyncData({ $axios }) {
       return $axios.get('/api/v1/public/home').then(({ data }) => data)
     },
-    components: { ArtistList },
+    components: { ArtistList, VawaaButton },
     computed: {
 
     },

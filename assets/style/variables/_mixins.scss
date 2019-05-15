@@ -4,7 +4,7 @@
 
 @mixin vawaaH1() {
   font-weight: 300;
-  font-size: $vawaa-font-xxlarge--alt;
+  font-size: $vawaa-font-xxlarge;
   @media only screen and (min-width: $breakpoint-medium) {
     font-size: $vawaa-font-xxlarge;
   }

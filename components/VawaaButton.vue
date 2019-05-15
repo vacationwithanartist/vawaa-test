@@ -1,7 +1,7 @@
 <template>
-  <button class="btn" :class="typeClasses">
+  <a :href="href" class="btn" :class="typeClasses">
     <slot />
-  </button>
+  </a>
 </template>
 
 <script>
@@ -12,6 +12,10 @@
       }
     },
     props: {
+      href: {
+        type: String,
+        required: true
+      },
       types: Array,
       required: true
     }

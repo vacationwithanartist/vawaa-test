@@ -1,11 +1,11 @@
 <template>
   <nav class="top-nav">
-    <a href="https://vawaa.com" target="_blank" class="top-nav__logo">
+    <a href="https://vawaa.com" target="blank" class="top-nav__logo">
       <img src="~/assets/images/vawaa-black.png" alt="VAWAA">
     </a>
     <ul class="top-nav__links">
       <li class="top-nav__link">
-        <a href="https://vawaa.com/artists" target="_blank">Artists</a>
+        <a href="https://vawaa.com/artists" target="blank">Artists</a>
       </li>
     </ul>
   </nav>
